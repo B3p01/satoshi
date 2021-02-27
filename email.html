@@ -11,17 +11,27 @@
                 margin-left:auto;
                 margin-right:auto;
             }
-            h5 {
+            h3 {
+                margin: 0 0 0 0;
+            }
+            #i {
+                text-indent: 8px;
+                margin: 0 0 0 0;
+            }
+            
+            #i2 {
+                text-indent: 30px;
                 margin: 0 0 0 0;
             }
         </style>
-        <script>alert("This is the original email that launched the Bitcoin project")</script>
+        <!-- #i & #i2 are inelegent solutions for indention needed needed for replication-->
+        <script>alert("This is the original email context that launched the Bitcoin project")</script>
     </head>
     <body>
         <h1>Bitcoin P2P e-cash paper</h1>
         <div>
-            <h5><b>Satoshi Nakamoto</b> <u><a href="mailto:satoshi@vistomail.com">satoshi at vistomail.com</a></u>            
-            </h5>
+            <h3><b>Satoshi Nakamoto</b> <u style="font-weight: normal;"><a href="mailto:satoshi@vistomail.com">satoshi at vistomail.com</a></u>            
+            </h3>
             <i>Fri Oct 31 14:10:00 EDT 2008</i>
             <p>
                 <ul>
@@ -38,14 +48,14 @@
                 The paper is available at: 
                 <br><a href="http://www.bitcoin.org/bitcoin.pdf">http://www.bitcoin.org/bitcoin.pdf</a>
             </p>
-            <p>
+            <p style="margin: 0 0 0 0;">
                 The main properties:<br>
-                  Double-spending is prevented with a peer-to-peer network.
-                  No mint or other trusted parties.
-                  Participants can be anonymous.
-                  New coins are made from Hashcash style proof-of-work. 
-                  The proof-of-work for new coin generation also powers the 
-                    network to prevent double-spending. 
+                  <p id="i">Double-spending is prevented with a peer-to-peer network.<br></p>
+                  <p id="i">No mint or other trusted parties.<br></p>
+                  <p id="i">Participants can be anonymous.<br></p>
+                  <p id="i">New coins are made from Hashcash style proof-of-work. <br></p>
+                  <p id="i">The proof-of-work for new coin generation also powers the <br></p>
+                  <p id="i2">network to prevent double-spending. </p>  
             </p>
             <p>
                 Bitcoin: A Peer-to-Peer Electronic Cash System
@@ -67,7 +77,7 @@
                 proof-of-work chain as proof of what happened while they were gone.                
             </p>
             <p>
-                The paper is available at: 
+                Full paper at: 
                 <br><a href="http://www.bitcoin.org/bitcoin.pdf">http://www.bitcoin.org/bitcoin.pdf</a>
             </p>
             <p>Satoshi Nakamoto</p>
